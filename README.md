@@ -1,23 +1,23 @@
 # Cancer-Recurrance-DS
 An alorith to predict the probability of cancer reccurance in a patient who has had breast cancer before.
+
 FIND LINKS TO COLABS BELOW
 
 I ran through a series of different classifications using different parameters and dimensionality reduction.
 From this I found that Support Vector Machine was the best preforming algorithm which gave me the best results.
 
-# Callaghan_Colt_4B.py - https://colab.research.google.com/drive/19e6dfWux-mjvOjwyA41im9Tu-74XyPvo#scrollTo=TU4WYOWct23S&forceEdit=true&sandboxMode=true
+# Recurrance.py - https://colab.research.google.com/drive/19e6dfWux-mjvOjwyA41im9Tu-74XyPvo#scrollTo=TU4WYOWct23S&forceEdit=true&sandboxMode=true
 The original .xls file had inconsistencies in the data. Due to this I tried various methods to work around this.
 The first way I tried to get arThis is my submission for the Data Science module in the JHUB Coding Scheme.
 I ran through a series of different classifications using different parameters and dimensionality reduction.
 From this I found that Support Vector Machine was the best preforming algorithm which gave me the best results.
 
-# Callaghan_Colt_4B_Reformat.py
+# Recurrance-reformatted.py
 The original .xls file had inconsistencies in the data. Due to this I tried various methods to work around this.
 The first way I tried to get around this problem was by manually editing the file and removing all data from the cells which had
 a date in them. This meant I had to use a library called SimpleImputer to find the mode of the 2 columns that were affected.
 This provided me with my best results, 77.5% accuracy.
 
-# Callaghan_Colt_4B_Reformat.py
 I then wanted to ensure that I used the original data unedited in case that was what the markers wanted. From this I decided
 that I would drop the 2 columns from the dataset and continue with further trials of each classification. This provided me
 with a 75.8% accuracy, which seems like a negligible amount, but after all it is about predicting recurrence rates of cancer
@@ -30,7 +30,7 @@ ound this problem was by manually editing the file and removing all data from th
 a date in them. This meant I had to use a library called SimpleImputer to find the mode of the 2 columns that were affected.
 This provided me with my best results, 77.5% accuracy.
 
-# Callaghan_Colt_4B_Reformat.py - https://colab.research.google.com/drive/1c1PB1YafjDBGKc387RsHxRlIn_a9TJxB#scrollTo=37puETfgRzzg&forceEdit=true&sandboxMode=true
+https://colab.research.google.com/drive/1c1PB1YafjDBGKc387RsHxRlIn_a9TJxB#scrollTo=37puETfgRzzg&forceEdit=true&sandboxMode=true
 I then wanted to ensure that I used the original data unedited incase that was what the markers wanted. From this I decided
 that I would drop the 2 columns from the dataset, and continue with further trials of each classification. This provided me
 with a 75.8% accuracy, which seems like a negligable amount, but after all it is about predicting recurrence rates of cancer
